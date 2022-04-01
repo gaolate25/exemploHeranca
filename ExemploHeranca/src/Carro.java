@@ -1,0 +1,23 @@
+
+public class Carro extends Veiculo {
+	private boolean quatroPortas;
+	
+	public boolean isQuatroPortas(){
+		
+		return quatroPortas;
+	}
+	
+  public void setQuadroPortas(boolean quatroPortas) {
+	  this.quatroPortas = quatroPortas;
+  }
+
+@Override
+public void imprimirDados() {
+	// TODO Auto-generated method stub
+	super.imprimirDados();
+	System.out.println("Quatro Portas" + quatroPortas);
+}
+	  
+  
+
+}
